@@ -4,11 +4,11 @@ TimeSwitch4ModemRouter
 ## 1、背景介绍
 一般家庭modem和路由器都是24小时开机，这种设计很不环保。对于大部分人晚上睡觉和上班时间都不需要网络可以关闭。本设计就是在modem和路由器的电源线上加入定时开关，实现电源的自动开启和关闭。
 
-![appearance](https://github.com/apeng2012/TimeSwitch4ModemRouter.git)
+![appearance](https://github.com/apeng2012/TimeSwitch4ModemRouter/raw/master/doc/wg.gif)
 
 采用NuTiny-SDK-NUC122开发板。引出电路板的PD0、PD1和PD2 IO口控制PMOS开关从而控制电源开关。串口1作为与电脑相连的通讯接口用来设置定时时间。上位机采用python语言与电路板交互。
 
-![Circuit](http://www.nuvoton.com/hq/enu/ProductAndSales/ProductLines/MicrocontrollerApplicationIC/ARMMicrocontroller/ARMCortexTMM0/PublishingImages/NuTiny-SDK-NUC120.jpg)
+![Circuit](https://github.com/apeng2012/TimeSwitch4ModemRouter/raw/master/doc/circuit.GIF)
 
 ## 2、基本操作方法
 
